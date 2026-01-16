@@ -13,7 +13,29 @@ Por favor, mantener los últimos cambios de primero (ejemplo: de lo más nuevo a
 ---
 ## To do
 
-- Crear la función q2, q2_time y q2_memory
+- Robustecer la documentación
+- Implementar en GCP
+- Dar mayor calidad en la diferencia entre los códigos
+- Dependiendo del volumen de los datos, utilizar otras herramientas como PySpark o Polars.
+
+---
+
+# 2026-01-16
+
+### Description:
+Se creó las funciones q3_time y q3_memory. Optimizando tiempo de ejecucion (al paralelizar) y optimizando uso de memoria, respectivamente.
+
+### Added
+
+- Se obtiene el top 10 histórico de usuarios (username) más influyentes en función del conteo de las menciones (@) que registra cada uno de ellos.
+
+- ```q3_time.py```: Se creó la función q2_time, paralelizando el proceso. Mejora tiempo de ejecucion y empeora uso de memoria.
+
+- ```q3_memory.py```: Se creó la función q2_memory, mejora levemente el uso de memoria. No hay mucha diferencia con q2.
+
+### Changed
+
+1. ```challenge.ipynb```: Se probó la ejecución de la función q3_time, q3_memory y se agregó un comentario.
 
 ---
 
