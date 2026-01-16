@@ -13,7 +13,24 @@ Por favor, mantener los últimos cambios de primero (ejemplo: de lo más nuevo a
 ---
 ## To do
 
-- Crear las funciones de los archivos **q1_time.py** y **q1_memory.py** para optimizar el tiempo de ejecucción y el uso de memoria de la función, respectivamente, tomando como linea base a la función creada en **q1.py**.
+- Crear la función q1_memory del archivo **q1_memory.py** para optimizar el uso de memoria de la función, respectivamente, tomando como linea base a la función **q1** creada en **q1.py**.
+
+---
+
+# 2026-01-16
+
+### Description:
+Se creó la función q1_time en el archivo q1_time.py, optimizando tiempo de ejecución.
+
+### Added
+
+- ```q1_time.py```: Se creó la función q1_time, buscando **optimizar el tiempo de ejecución.** con respecto a la función inicial q1.
+
+### Changed
+
+1. ```challenge.ipynb```: Se probó la ejecución de la función q1_time en cuanto a tiempo de ejecucion y también se obtuvo el valor en cuanto al uso de memoria. También se mejoró la documentación.
+
+2. ```CHANGELOG.md```: Se corrigieron errores de escritura en el documento.
 
 ---
 
@@ -24,11 +41,11 @@ Se solucionó el requerimiento 1 en cuanto a obtener el top 10 de fechas con má
 
 ### Added
 
-- ```q1_time.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 1:``` Enlistar las top 10 fechas donde hay más tweets, **optimizando el tiempo de ejecucción.**
+- ```q1.py```: Archivo con la función q1 para solucionar el ```Requerimiento 1:``` Enlistar las top 10 fechas donde hay más tweets, mencionando el username que más tweet posteó para dicha fecha.
 
 ### Changed
 
-1. ```challenge.ipynb```: Se probó la ejecución de la función q1 y se obtuvo el tiempo de ejecucción y el uso de memoria.
+1. ```challenge.ipynb```: Se probó la ejecución de la función q1 y se obtuvo el tiempo de ejecución y el uso de memoria.
 
 2. ```requirements.txt```: Se ejecutó ```pip freeze > requirements.txt``` desde la terminal para actualizar las versiones de las dependencias en el archivo.
 
@@ -50,15 +67,15 @@ Se hace el commit inicial después de crear el repositorio en GitHub. Se crea la
 
 - ```data/```: En la raíz del proyecto. Directorio de datos en donde serán ingestados los datos crudos de los tweets a procesar.
 
-- ```q1_time.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 1:``` Enlistar las top 10 fechas donde hay más tweets, **optimizando el tiempo de ejecucción.**
+- ```q1_time.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 1:``` Enlistar las top 10 fechas donde hay más tweets, **optimizando el tiempo de ejecución.**
 
 - ```q1_memory.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 1:``` Enlistar las top 10 fechas donde hay más tweets, **optimizando el uso de memoria.**
 
-- ```q2_time.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 2:``` Enlistar los top 10 emojis más usados con su respectivo conteo, **optimizando el tiempo de ejecucción.**
+- ```q2_time.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 2:``` Enlistar los top 10 emojis más usados con su respectivo conteo, **optimizando el tiempo de ejecución.**
 
 - ```q2_memory.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 2:``` Enlistar los top 10 emojis más usados con su respectivo conteo, **optimizando el uso de memoria.**
 
-- ```q3_time.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 3:``` Enlistar el top 10 histórico de usuarios (username) más influyentes en función del conteo de las menciones (@) que registra cada uno de ellos, **optimizando el tiempo de ejecucción.**
+- ```q3_time.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 3:``` Enlistar el top 10 histórico de usuarios (username) más influyentes en función del conteo de las menciones (@) que registra cada uno de ellos, **optimizando el tiempo de ejecución.**
 
 - ```q3_memory.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 3:``` Enlistar el top 10 histórico de usuarios (username) más influyentes en función del conteo de las menciones (@) que registra cada uno de ellos, **optimizando el uso de memoria.**
 
