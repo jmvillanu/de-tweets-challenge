@@ -20,6 +20,24 @@ Por favor, mantener los últimos cambios de primero (ejemplo: de lo más nuevo a
 # 2026-01-16
 
 ### Description:
+Se creó las funciones q2, q2_time y q2_memory. Normal, optimizando tiempo de ejecucion y optimizando uso de memoria, respectivamente.
+
+### Added
+
+- ```q2.py```: Se creó la función q2, obtiene los 10 emojis más populares.
+
+- ```q2_time.py```: Se creó la función q2_time, paralelizando el proceso. Mejora tiempo de ejecucion y empeora uso de memoria.
+
+- ```q2_memory.py```: Se creó la función q2_memory, mejora levemente el uso de memoria. No hay mucha diferencia con q2.
+
+### Changed
+
+1. ```challenge.ipynb```: Se probó la ejecución de la función q2, q2_time, q2_memory.
+
+---
+# 2026-01-16
+
+### Description:
 Se creó la función q1_memory en el archivo q1_memory.py, optimizando el uso de memoria.
 ### Added
 
