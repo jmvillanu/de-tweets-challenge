@@ -13,7 +13,21 @@ Por favor, mantener los últimos cambios de primero (ejemplo: de lo más nuevo a
 ---
 ## To do
 
-- Crear la función q1_memory del archivo **q1_memory.py** para optimizar el uso de memoria de la función, respectivamente, tomando como linea base a la función **q1** creada en **q1.py**.
+- Crear la función q2, q2_time y q2_memory
+
+---
+
+# 2026-01-16
+
+### Description:
+Se creó la función q1_memory en el archivo q1_memory.py, optimizando el uso de memoria.
+### Added
+
+- ```q1_memory.py```: Se creó la función q1_memory, buscando **optimizar el uso de memoria.** con respecto a la función inicial q1.
+
+### Changed
+
+1. ```challenge.ipynb```: Se probó la ejecución de la función q1_memory en cuanto a uso de memoria y también se obtuvo el valor en cuanto al tiempo de ejecución.
 
 ---
 
