@@ -13,10 +13,28 @@ Por favor, mantener los últimos cambios de primero (ejemplo: de lo más nuevo a
 ---
 ## To do
 
-- Completar cada uno de los scripts de Python para darle solución a los requerimientos.
+- Crear las funciones de los archivos **q1_time.py** y **q1_memory.py** para optimizar el tiempo de ejecucción y el uso de memoria de la función, respectivamente, tomando como linea base a la función creada en **q1.py**.
 
 ---
 
+# 2026-01-16
+
+### Description:
+Se solucionó el requerimiento 1 en cuanto a obtener el top 10 de fechas con más tweets y sus username respectivos. No se ha realizado ninguna optimización, que también es parte del requerimiento.
+
+### Added
+
+- ```q1_time.py```: Dentro del directorio *src/*. Plantilla para solucionar el ```Requerimiento 1:``` Enlistar las top 10 fechas donde hay más tweets, **optimizando el tiempo de ejecucción.**
+
+### Changed
+
+1. ```challenge.ipynb```: Se probó la ejecución de la función q1 y se obtuvo el tiempo de ejecucción y el uso de memoria.
+
+2. ```requirements.txt```: Se ejecutó ```pip freeze > requirements.txt``` desde la terminal para actualizar las versiones de las dependencias en el archivo.
+
+3. ```.gitignore```: Se agrega la carpeta data/ para que no se suban los datos al repositorio y __pycache__ para que el caché tampoco lo suba la repositorio.
+
+---
 
 # 2026-01-16
 
