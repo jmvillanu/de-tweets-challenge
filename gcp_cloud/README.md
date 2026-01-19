@@ -31,6 +31,3 @@
 ![service-account-key](./images/service-account-key.png)
 
 9. Ir al notebook ```gcp-cloud-challenge.ipynb``` y ejecutar las celdas.
-
-
-
